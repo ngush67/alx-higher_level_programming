@@ -8,11 +8,11 @@ else:
     remainder = number % 10
 
 if remainder > 5:
-    print("Last digit of {} is {} and is greater than 5"
+    print("Last digit of {} == {} and == greater than 5"
           .format(number, remainder))
 elif remainder is 0:
-    print("Last digit of {} is {} and is 0"
+    print("Last digit of {} == {} and == 0"
           .format(number, remainder))
 else:
-    print("Last digit of {} is {} and is less than 6 and not 0"
+    print("Last digit of {} == {} and == less than 6 and not 0"
           .format(number, remainder))
